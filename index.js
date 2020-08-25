@@ -134,8 +134,8 @@ app.post('/webhook/', function(req, res) {
                             gifts.sendDogPic(sender, null, true);
                         } 
                         // HERE 
-                        else if (text.indexOf("=choose")==0) {                             
-                            sendTextMessage(sender,'I pick ' + loto(text));
+                        else if (text.indexOf("=Random")==0) {                             
+                            sendTextMessage(sender,'Tớ chọn ' + loto(text));
                         }
                         else if (!event.read) {
                             sendButtonMsg(sender, la.HUONG_DAN, true, true);
@@ -156,8 +156,8 @@ app.post('/webhook/', function(req, res) {
                             gifts.sendDogPic(sender, null, true);
                         } 
                         // HERE
-                        else if (text.indexOf("=choose")==0) { 
-                            sendTextMessage(sender,'I pick ' + loto(text));
+                        else if (text.indexOf("=Random")==0) { 
+                            sendTextMessage(sender,'Tớ chọn ' + loto(text));
                         }
                         else if (!event.read) {
                             sendButtonMsg(sender, la.WAITING, false, true);
@@ -206,10 +206,10 @@ app.post('/webhook/', function(req, res) {
     }
     res.sendStatus(200)
 })
-console.log(loto("=choose Hung dep trai, Hung hotboy"))
+console.log(loto("=Random Hung dep trai, Hung hotboy"))
 function loto(string){    
-    let picked = string.replace("=choose",'')
-    picked = string.replace("=choose ",'')
+    let picked = string.replace("=Random",'')
+    picked = string.replace("=Random ",'')
     picked = picked.split(",")
     console.log(picked)
     let index_rand = Math.round(Math.random()*(picked.length-1));
