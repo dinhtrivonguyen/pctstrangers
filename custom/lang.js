@@ -29,6 +29,10 @@ module.exports = {
 				"\nCác câu lệnh có thể dùng khi đang không kết nối với ai:\n"+
 				"- tim nu: Tìm con gái\n"+
 				"- tim nam: Tìm bạn trai \n"+
+				"\nCác chức năng mới:\n"+
+				"=Random [lựa chọn 1], [lựa chọn 2]: Bot ngẫu nhiên lựa chọn giúp bạn \n"+
+				"gauw: Xem ảnh chó ngẫu nhiên \n"+
+				"meow: Xem ảnh mèo ngẫu nhiên \n"+
 				"\n Phan Chau Trinh Strangers ver01\n"+
 				"\n Sự phát triển hệ thống thuộc về Coreteam Gen4",
 				
