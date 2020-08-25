@@ -135,7 +135,7 @@ app.post('/webhook/', function(req, res) {
                         } 
                         // HERE 
                         else if (text.indexOf("=Random")==0) {                             
-                            sendTextMessage(sender,'Tớ chọn ' + loto(text));
+                            sendTextMessage(sender,'[Bot] Tớ chọn  ' + loto(text));
                         }
                         else if (!event.read) {
                             sendButtonMsg(sender, la.HUONG_DAN, true, true);
@@ -157,7 +157,7 @@ app.post('/webhook/', function(req, res) {
                         } 
                         // HERE
                         else if (text.indexOf("=Random")==0) { 
-                            sendTextMessage(sender,'Tớ chọn ' + loto(text));
+                            sendTextMessage(sender,'[Bot] Tớ chọn  ' + loto(text));
                         }
                         else if (!event.read) {
                             sendButtonMsg(sender, la.WAITING, false, true);
@@ -181,7 +181,7 @@ app.post('/webhook/', function(req, res) {
                         } 
                         // HERE 
                         else if (text.indexOf("=Random ")==0) { 
-                            sendTextMessage(sender,'Tớ chọn  ' + loto(text));
+                            sendTextMessage(sender,'[Bot] Tớ chọn   ' + loto(text));
                         }
                         else {
                             if (event.read) {
