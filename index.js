@@ -180,7 +180,7 @@ app.post('/webhook/', function(req, res) {
                             gifts.sendDogPic(sender, sender2, false);
                         } 
                         // HERE 
-                        else if (text.indexOf("=Chọn ")==0) { 
+                        else if (text.indexOf("=Random ")==0) { 
                             sendTextMessage(sender,'Tớ chọn  ' + loto(text));
                         }
                         else {
