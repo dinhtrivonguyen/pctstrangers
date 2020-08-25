@@ -3,7 +3,7 @@
 
 module.exports = {
 	BAO_TRI : "Hệ thống hiện đang bảo trì. Chúng tớ sẽ sớm kết nối lại và thông báo cho các bạn.",
-	FIRST_COME : 'Chào mừng đến với PCT Strangers", "Lễ thất tịch này bạn đã sẵn sàng tìm người ấy chưa? Nhập ký tự bất kỳ để bắt đầu!',
+	FIRST_COME : 'Chào mừng đến với PCT Strangers! Lễ thất tịch này bạn đã sẵn sàng tìm người ấy chưa? Nhập ký tự bất kỳ để bắt đầu!',
 	HUONG_DAN : "🤗 Nhập từ khóa batdau hoặc lựa chọn giới tính trong menu để bắt đầu tìm kiếm người ấy cho mình nhé.",
 	BATDAU_OKAY : "\nChúng tớ đang tìm người phù hợp với bạn nhất...",
 	BATDAU_WARN_GENDER : "Thông báo: Bạn không chọn giới tính. Chúng tớ sẽ ghép cặp ngẫu nhiên cho bạn. ",
