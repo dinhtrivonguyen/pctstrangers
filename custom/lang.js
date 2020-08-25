@@ -30,12 +30,12 @@ module.exports = {
 				"- tim nu: Tìm con gái\n"+
 				"- tim nam: Tìm bạn trai \n"+
 				"\nCác cú pháp tin nhắn của chức năng mới:\n"+
-				" =Random [lựa chọn 1], [lựa chọn 2]: Bot ngẫu nhiên lựa chọn giúp bạn \n"+
-				"Ví dụ: =Random xin facebook, cân nhắc sau\n"+
+				" =Random [lựa chọn 1], [lựa chọn 2]: Bot lựa chọn ngẫu nhiên giúp bạn \n"+
+				"Ví dụ: =Random xin facebook đối phương, cân nhắc sau\n"+
 				"gauw: Xem ảnh chó ngẫu nhiên \n"+
 				"meow: Xem ảnh mèo ngẫu nhiên \n"+
-				"\n Phan Chau Trinh Strangers ver01\n"+
-				"\n Sự phát triển hệ thống thuộc về Coreteam Gen4",
+				"\n Phan Chau Trinh Strangers ver02\n"+
+				"\n Sự phát triển hệ thống thuộc về Studnet Gen4.1",
 				
 	BROADCAST_TXT : "this is a message from admin",			
 
