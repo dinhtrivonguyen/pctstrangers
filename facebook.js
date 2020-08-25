@@ -71,21 +71,7 @@ exports.setupFBApi = function(request, token, report_link) {
 				        		 "payload":"trogiup"
 				          	}
 				       	  ]
-				         },
-				        {
-				        	"title":"Tiện ích khác",
-				            "type":"nested",
-				            "call_to_actions":[
-						          	{
-							          "type":"web_url",
-							          "title":"💌 Gửi confession ",
-							          "url":"shorturl.at/CGLS1",
-							          "webview_height_ratio":"full"
-				        			}
-				        
-				    			]
-				    		}
-				    		
+				         }
 				    		]
 				   
 	            	}
