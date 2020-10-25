@@ -135,7 +135,7 @@ app.post('/webhook/', function(req, res) {
                         } 
                         // HERE 
                         else if (text.indexOf("=Random")==0) {                             
-                            sendTextMessage(sender,'[Bot] Tớ chọn  ' + loto(text));
+                            sendTextMessage(sender,'[Bot] Tớ chọn ' + loto(text));
                         }
                         else if (!event.read) {
                             sendButtonMsg(sender, la.HUONG_DAN, true, true);
@@ -157,7 +157,7 @@ app.post('/webhook/', function(req, res) {
                         } 
                         // HERE
                         else if (text.indexOf("=Random")==0) { 
-                            sendTextMessage(sender,'[Bot] Tớ chọn  ' + loto(text));
+                            sendTextMessage(sender,'[Bot] Tớ chọn ' + loto(text));
                         }
                         else if (!event.read) {
                             sendButtonMsg(sender, la.WAITING, false, true);
@@ -181,7 +181,7 @@ app.post('/webhook/', function(req, res) {
                         } 
                         // HERE 
                         else if (text.indexOf("=Random ")==0) { 
-                            sendTextMessage(sender,'[Bot] Tớ chọn   ' + loto(text));
+                            sendTextMessage(sender,'[Bot] Tớ chọn  ' + loto(text));
                         }
                         else {
                             if (event.read) {
@@ -306,23 +306,23 @@ var sendButtonMsg = function(sender, txt, showStartBtn, showHelpBtn, showRpBtn =
     var btns = [];
     if (showStartBtn) btns.push({
         "type": "postback",
-        "title": "Bắt đầu chat",
+        "title": "💞 Bắt đầu chat",
         "payload": "batdau"
     });
     if (showHelpBtn) btns.push({
         "type": "postback",
-        "title": "Xem trợ giúp",
+        "title": "📑 Xem trợ giúp",
         "payload": "trogiup"
     });
     else btns.push({
         "type": "web_url",
-        "title": "Gửi phản hồi",
+        "title": "📬 Gửi phản hồi",
         "url": co.REPORT_LINK
     });
     if (showRpBtn)
         btns.push({
             "type": "web_url",
-            "title": "Gửi phản hồi",
+            "title": "📬 Gửi phản hồi",
             "url": co.REPORT_LINK
         });
     sendFacebookApi(sender, sender, {
