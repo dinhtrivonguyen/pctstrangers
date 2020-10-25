@@ -92,11 +92,11 @@ exports.setupFBApi = function(request, token, report_link) {
   exports.quickbtns = [
   {
     "content_type":"text",
-    "title":"Con trai",
+    "title":"🤴 Con trai",
     "payload":la.KEYWORD_GENDER+'nam'
   },{
     "content_type":"text",
-   "title":"Con gái",
+   "title":"👸 Con gái",
     "payload":la.KEYWORD_GENDER+'nu'
   }
   //,{
