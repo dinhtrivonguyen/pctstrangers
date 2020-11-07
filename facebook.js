@@ -42,6 +42,7 @@ exports.getFbData = function(accessToken, apiPath, callback) {
     request.end();
 }
 
+//set up menu
 exports.setupFBApi = function(request, token, report_link) {
 	request({
 		url: 'https://graph.facebook.com/v2.6/me/messenger_profile',
@@ -61,14 +62,14 @@ exports.setupFBApi = function(request, token, report_link) {
 				          "type":"nested",
 				          "call_to_actions":[
 				          	{
-				          		"title":"Giới tính",
+				          		"title":"Lựa chọn giới tính",
 				          		"type":"postback",
 				        		"payload":"tieuchi"
 				          	},
 				          	{
-				          		"title":"Hướng dẫn",
+				          		"title":"Hướng dẫn sử dụng",
 				        		"type":"postback",
-				        		 "payload":"trogiup"
+				        		 "payload":"bikip"
 				          	}
 				       	  ]
 				         },
@@ -76,7 +77,7 @@ exports.setupFBApi = function(request, token, report_link) {
 				        	"title":"Món quà đặc biệt từ PCTs",
 				            "type":"nested",
 				            "call_to_actions":[
-						          	{
+                      {
 							          "type":"web_url",
 							          "title":"Đăng ký vé Concert “MAQUILLER”",
 							          "url":"http://bit.ly/TRVOfficialTicket",
