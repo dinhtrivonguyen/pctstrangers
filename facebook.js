@@ -82,12 +82,6 @@ exports.setupFBApi = function(request, token, report_link) {
 							          "title":"Đăng ký vé Concert “MAQUILLER”",
 							          "url":"http://bit.ly/TRVOfficialTicket",
 							          "webview_height_ratio":"full"
-				        			},
-				        			{
-							          "type":"web_url",
-							          "title":"Gửi phản hồi đến admin",
-							          "url":"bitly.com/yourfeedbackaboutme",
-							          "webview_height_ratio":"full"
 				        			}
 				        
 				    			]
