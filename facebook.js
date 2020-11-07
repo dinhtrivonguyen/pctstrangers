@@ -75,7 +75,7 @@ exports.setupFBApi = function(request, token, report_link) {
 				        {
 							"type":"web_url",
 							"title":"Đăng ký vé Concert “MAQUILLER”",
-							"url":"https://bit.ly/32Ek7ev",
+							"url":"https://www.facebook.com/trouvailleconcert/photos/a.1937813279564975/3739195302760088/",
 							"webview_height_ratio":"full"
 				        }
 				    		
