@@ -57,6 +57,10 @@ exports.setupFBApi = function(request, token, report_link) {
 				    "locale":"default",
 				    "composer_input_disabled":false,
 				    "call_to_actions":[
+				    	    {
+				          "title":"Tiêu chí yêu thích",
+				          "type":"nested",
+				          "call_to_actions":[
 				          	{
 				          		"title":"Lựa chọn giới tính",
 				          		"type":"postback",
@@ -66,16 +70,30 @@ exports.setupFBApi = function(request, token, report_link) {
 				          		"title":"Hướng dẫn sử dụng",
 				        		"type":"postback",
 				        		 "payload":"bikip"
-							  },
-							  {
-								"type":"web_url",
-								"title":"Đăng ký vé Concert “MAQUILLER”",
-								"url":"http://bit.ly/TRVOfficialTicket",
-								"webview_height_ratio":"full"
-							  },
+				          	}
+				       	  ]
+				         },
+				        {
+				        	"title":"Món quà đặc biệt từ PCTs",
+				            "type":"nested",
+				            "call_to_actions":[
+                      {
+							          "type":"web_url",
+							          "title":"Đăng ký vé Concert “MAQUILLER”",
+							          "url":"http://bit.ly/TRVOfficialTicket",
+							          "webview_height_ratio":"full"
+				        			},
+				        			{
+							          "type":"web_url",
+							          "title":"Gửi phản hồi đến admin",
+							          "url":"bitly.com/yourfeedbackaboutme",
+							          "webview_height_ratio":"full"
+				        			}
+				        
 				    			]
-				    }
-				    	]
+				    		}
+				    		
+				    		]
 				   
 	            	}
 	            ]// persistent menu
@@ -101,8 +119,8 @@ exports.setupFBApi = function(request, token, report_link) {
     "content_type":"text",
    "title":"👸 Con gái",
     "payload":la.KEYWORD_GENDER+'nu'
-  },
-
+  }
+  
   //,{
   //   "content_type":"text",
   //   "title":"meow",
