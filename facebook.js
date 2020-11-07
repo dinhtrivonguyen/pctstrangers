@@ -61,12 +61,12 @@ exports.setupFBApi = function(request, token, report_link) {
 				          "type":"nested",
 				          "call_to_actions":[
 				          	{
-				          		"title":"👫 Giới tính",
+				          		"title":"Giới tính",
 				          		"type":"postback",
 				        		"payload":"tieuchi"
 				          	},
 				          	{
-				          		"title":"🤗 Hướng dẫn",
+				          		"title":"Hướng dẫn",
 				        		"type":"postback",
 				        		 "payload":"trogiup"
 				          	}
@@ -74,7 +74,7 @@ exports.setupFBApi = function(request, token, report_link) {
 				         },
 				        {
 							"type":"web_url",
-							"title":"️🎶Đăng ký vé Concert “MAQUILLER”",
+							"title":"Đăng ký vé Concert “MAQUILLER”",
 							"url":"https://bit.ly/32Ek7ev",
 							"webview_height_ratio":"full"
 				        }
