@@ -62,31 +62,25 @@ exports.setupFBApi = function(request, token, report_link) {
 				          "type":"nested",
 				          "call_to_actions":[
 				          	{
-				          		"title":"Lựa chọn giới tính",
+				          		"title":"💞 Lựa chọn giới tính",
 				          		"type":"postback",
 				        		"payload":"tieuchi"
 				          	},
 				          	{
-				          		"title":"Hướng dẫn sử dụng",
+				          		"title":"📝 Hướng dẫn sử dụng",
 				        		"type":"postback",
 				        		 "payload":"bikip"
 				          	}
 				       	  ]
 				         },
 				        {
-				        	"title":"Món quà đặc biệt từ PCTs",
+				        	"title":"💌 Món quà đặc biệt từ PCTs",
 				            "type":"nested",
 				            "call_to_actions":[
                       {
 							          "type":"web_url",
-							          "title":"Đăng ký vé Concert “MAQUILLER”",
+							          "title":"💌 Đăng ký vé Concert “MAQUILLER”",
 							          "url":"http://bit.ly/TRVOfficialTicket",
-							          "webview_height_ratio":"full"
-				        			},
-				        			{
-							          "type":"web_url",
-							          "title":"Gửi phản hồi đến admin",
-							          "url":"bitly.com/yourfeedbackaboutme",
 							          "webview_height_ratio":"full"
 				        			}
 				        
@@ -122,8 +116,8 @@ exports.setupFBApi = function(request, token, report_link) {
   }, 
   {
     "content_type":"text",
-    "title":"️🎶 Mua vé Concert “MAQUILLER”",
-	"payload":la.BROADCAST_HTTT
+    "title":"️🎶 Mua vé Concert",
+	"payload":la.HELP_HTTT
   }
   //,{
   //   "content_type":"text",
