@@ -39,12 +39,6 @@ module.exports = {
 				
 	BROADCAST_TXT : "this is a message from admin",			
 
-	HELP_HTTT : 	"️CƠ HỘI CUỐI ĐĂNG KÝ VÉ CONCERT “MAQUILLER” | ĐỢT CHÍNH THỨC \n"+
-					"Mua vé tại: http://bit.ly/TRVOfficialTicket \n" +
-					"Giá vé: 120.000 đồng (đã bao gồm nước) \n"+
-					"Thời gian: 19h15 ngày 29/11/2020 \n"+ 
-					"Địa điểm: Khách sạn Mường Thanh Luxury, 270 Võ Nguyên Giáp, Đà Nẵng \n",
-
 	KEYWORD_BATDAU : 'batdau',
 	KEYWORD_KETTHUC : 'ketthuc',
 	KEYWORD_GENDER : 'tim',
