@@ -61,12 +61,12 @@ exports.setupFBApi = function(request, token, report_link) {
 				          "type":"nested",
 				          "call_to_actions":[
 				          	{
-				          		"title":"Giới tính",
+				          		"title":"💞 Lựa chọn giới tính",
 				          		"type":"postback",
 				        		"payload":"tieuchi"
 				          	},
 				          	{
-				          		"title":"Hướng dẫn",
+				          		"title":"📝 Hướng dẫn sử dụng",
 				        		"type":"postback",
 				        		 "payload":"trogiup"
 				          	}
@@ -74,8 +74,8 @@ exports.setupFBApi = function(request, token, report_link) {
 				         },
 				        {
 							"type":"web_url",
-							"title":"Đăng ký vé Concert “MAQUILLER”",
-							"url":"https://www.facebook.com/trouvailleconcert/photos/a.1937813279564975/3739195302760088/",
+							"title":"️🎶 Đăng ký vé Concert “MAQUILLER”",
+							"url":"http://bit.ly/TRVOfficialTicket",
 							"webview_height_ratio":"full"
 				        }
 				    		
