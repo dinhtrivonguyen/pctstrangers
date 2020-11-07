@@ -58,18 +58,18 @@ exports.setupFBApi = function(request, token, report_link) {
 				    "composer_input_disabled":false,
 				    "call_to_actions":[
 				          	{
-				          		"title":"Lựa chọn giới tính",
+				          		"title":"💞 Lựa chọn giới tính",
 				          		"type":"postback",
 				        		"payload":"tieuchi"
 				          	},
 				          	{
-				          		"title":"Hướng dẫn sử dụng",
+				          		"title":"📬 Hướng dẫn sử dụng",
 				        		"type":"postback",
-				        		 "payload":"bikip"
+				        		 "payload":"trogiup"
 							  },
 							  {
 								"type":"web_url",
-								"title":"Đăng ký vé Concert “MAQUILLER”",
+								"title":"️🎶 Đăng ký vé Concert “MAQUILLER”",
 								"url":"http://bit.ly/TRVOfficialTicket",
 								"webview_height_ratio":"full"
 							  },
