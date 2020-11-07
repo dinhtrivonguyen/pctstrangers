@@ -71,7 +71,13 @@ exports.setupFBApi = function(request, token, report_link) {
 				        		 "payload":"trogiup"
 				          	}
 				       	  ]
-				         }
+						 },
+						 {
+							"title":"Đăng ký vé Concert “MAQUILLER”",
+							"url": "https://bit.ly/32Ek7ev",
+							"type":"web_url",
+						 }
+						 
 				    		]
 				   
 	            	}
