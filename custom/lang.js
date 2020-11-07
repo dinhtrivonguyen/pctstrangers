@@ -39,7 +39,7 @@ module.exports = {
 				
 	BROADCAST_TXT : "this is a message from admin",			
 
-	HELP_HTTT : "️🎶 CƠ HỘI CUỐI ĐĂNG KÝ VÉ CONCERT “MAQUILLER” | ĐỢT CHÍNH THỨC ️🎶 \n"+
+	HELP_HTTT : 	"️CƠ HỘI CUỐI ĐĂNG KÝ VÉ CONCERT “MAQUILLER” | ĐỢT CHÍNH THỨC \n"+
 					"Mua vé tại: http://bit.ly/TRVOfficialTicket \n" +
 					"Giá vé: 120.000 đồng (đã bao gồm nước) \n"+
 					"Thời gian: 19h15 ngày 29/11/2020 \n"+ 
