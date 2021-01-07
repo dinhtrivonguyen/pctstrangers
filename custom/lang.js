@@ -3,7 +3,7 @@
 
 module.exports = {
 	BAO_TRI : "Hệ thống hiện đang bảo trì. Chúng tớ sẽ sớm kết nối lại và thông báo cho các bạn.",
-	FIRST_COME : 'Bạn đã sẵn sàng tìm người ấy để đi xem Concert MAQUILLER từ Trouvaille chưa?! Nhập ký tự bất kỳ để bắt đầu!',
+	FIRST_COME : 'Bạn đã sẵn sàng tìm người ấy chưa?! Nhập ký tự bất kỳ để bắt đầu!',
 	HUONG_DAN : "🤗 Nhập từ khóa batdau hoặc lựa chọn giới tính trong menu để bắt đầu tìm kiếm người ấy cho mình nhé.",
 	BATDAU_OKAY : "\nChúng tớ đang tìm người phù hợp với bạn nhất...",
 	BATDAU_WARN_GENDER : "Thông báo: Bạn không chọn giới tính. Chúng tớ sẽ ghép cặp ngẫu nhiên cho bạn. ",
@@ -38,12 +38,6 @@ module.exports = {
 				"\n Sự phát triển hệ thống thuộc về Studnet Gen4.1",
 				
 	BROADCAST_TXT : "this is a message from admin",			
-
-	BROADCAST_HTTT: "️🎶 CƠ HỘI CUỐI ĐĂNG KÝ VÉ CONCERT “MAQUILLER” | ĐỢT CHÍNH THỨC ️🎶 \n" +
-					"Mua vé tại: http://bit.ly/TRVOfficialTicket \n" +
-					"Giá vé: 120.000 đồng (đã bao gồm nước) \n"+
-					"Thời gian: 19h15 ngày 29/11/2020 \n"+ 
-					"Địa điểm: Khách sạn Mường Thanh Luxury, 270 Võ Nguyên Giáp, Đà Nẵng \n",
 
 	KEYWORD_BATDAU : 'batdau',
 	KEYWORD_KETTHUC : 'ketthuc',
