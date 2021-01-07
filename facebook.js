@@ -79,7 +79,7 @@ exports.setupFBApi = function(request, token, report_link) {
 				            "call_to_actions":[
                       {
 							          "type":"web_url",
-							          "title":"Theo dõi fanpage Phan Châu Trinh Stranger",
+							          "title":"Theo dõi fanpage Phan Châu Trinh Stranger ",
 							          "url":"https://www.facebook.com/PhanChauTrinhStrangers",
 							          "webview_height_ratio":"full"
 				        			},
