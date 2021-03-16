@@ -3,7 +3,7 @@
 
 module.exports = {
 	BAO_TRI : "Hệ thống hiện đang bảo trì. Chúng tớ sẽ sớm kết nối lại và thông báo cho các bạn.",
-	FIRST_COME : '👋 Bạn đã sẵn sàng tìm người ấy chưa?! Nhập ký tự bất kỳ để bắt đầu!',
+	FIRST_COME : '👋 Dịp Valentine Trắng này bạn đã sẵn sàng tìm người ấy chưa?! Nhập ký tự bất kỳ để bắt đầu!',
 	HUONG_DAN : "🤗 Nhập từ khóa batdau hoặc lựa chọn giới tính trong menu để bắt đầu tìm kiếm người ấy cho mình nhé.",
 	BATDAU_OKAY : "\nChúng tớ đang tìm người phù hợp với bạn nhất...",
 	BATDAU_WARN_GENDER : "Thông báo: Bạn không chọn giới tính. Chúng tớ sẽ ghép cặp ngẫu nhiên cho bạn. ",
@@ -34,8 +34,8 @@ module.exports = {
 				"Ví dụ: =Random xin facebook đối phương, cân nhắc sau\n"+
 				"gauw: Xem ảnh chó ngẫu nhiên \n"+
 				"meow: Xem ảnh mèo ngẫu nhiên \n"+
-				"\n Phan Chau Trinh Strangers ver02\n"+
-				"\n Sự phát triển hệ thống thuộc về Studnet Gen4.1",
+				"\n Phan Chau Trinh Strangers ver03\n"+
+				"\n Sự phát triển hệ thống thuộc về Phan Châu Trinh Strangers Gen V",
 				
 	BROADCAST_TXT : "this is a message from admin",			
 

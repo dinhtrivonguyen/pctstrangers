@@ -2,9 +2,9 @@ module.exports = {
 	DEBUG : false,
 
 	//FACEBOOK TOKEN
-	FB_APP_SECRET : '6b102f3ff31458da4e17865fe70d81fc',
+	FB_APP_SECRET : '430beb25e9879389676b2188e651e016',
 	FB_PAGE_VERIFY_TOKEN : 'passsword_dang_yeu_nhat_qua_dat', // đặt 1 mã bất kỳ
-	FB_PAGE_ACCESS_TOKEN : 'EAAdfDxJ35ZA0BAEW4iBdOkSDEvcyzZAEjqgGETtOBhC5Swc998pOuKFd2g97oOMSAe1wj9Anu4g8AjxxirjvTjwcZBYCz08g62HznRwug2DiFm4Qi5zqnA6XWAgY5EsyZBkc8hcebi7LKFWDluJAV9WRmHHseeoudGJZByvJZCZCh3uBsBZBN2FxZCWD2TZCYUsoQZD',
+	FB_PAGE_ACCESS_TOKEN : 'EAAqloA1Q4EcBAAZAgT5sgiPYjIc1plAfjPVsK4chmB39ZAaUFBh7PRv69gkXv5tWG55bk8gbMn7quZBXm7zDzBLrbI2m3Qc9LYFI6bMZA1ysNV1ZAZAxo8aA4xTuOOaxXB10lsBbhu9Dq9QWJ7NSWFBkVX78EuB8Tc5m3zuZBZAIZAB63YJMlHDPE2cHczyYHbAAZD',
 
 	//HEROKU STUFFS
 	APP_NAME : '',
@@ -21,7 +21,7 @@ module.exports = {
 	POST_LOG_ENTRY2 : '',
 
 	//GOOGLE FORMS
-	REPORT_LINK : "http://bit.ly/yourfeedbackaboutme",
+	REPORT_LINK : "",
 
 	//OTHERS
 	//(không bắt buộc) Cách bật tính năng hiện đã xem (seen): https://goo.gl/xjw9nP

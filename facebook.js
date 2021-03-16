@@ -57,46 +57,20 @@ exports.setupFBApi = function(request, token, report_link) {
 				    "locale":"default",
 				    "composer_input_disabled":false,
 				    "call_to_actions":[
-				    	    {
-				          "title":"Tiêu chí yêu thích",
-				          "type":"nested",
-				          "call_to_actions":[
-				          	{
-				          		"title":"Lựa chọn giới tính",
-				          		"type":"postback",
-				        		"payload":"tieuchi"
-				          	},
-				          	{
-				          		"title":"Hướng dẫn sử dụng",
-				        		"type":"postback",
-				        		 "payload":"bikip"
-				          	}
-				       	  ]
-				         },
+				    	{
+				        "title":"Tiêu chí yêu thích",
+				        "type":"postpack",
+						"payload": "tieuchi"
+				        },
 				        {
-				        	"title":"Món quà đặc biệt từ PCTs",
-				            "type":"nested",
-				            "call_to_actions":[
-                      {
-							          "type":"web_url",
-							          "title":"Theo dõi fanpage Phan Châu Trinh Stranger ",
-							          "url":"https://www.facebook.com/PhanChauTrinhStrangers",
-							          "webview_height_ratio":"full"
-				        			},
-				        			{
-							          "type":"web_url",
-							          "title":"Gửi phản hồi đến admin",
-							          "url":"bitly.com/yourfeedbackaboutme",
-							          "webview_height_ratio":"full"
-				        			}
-				        
-				    			]
-				    		}
-				    		
-				    		]
-				   
-	            	}
-	            ]// persistent menu
+				        "title":"Món quà đặc biệt từ PCTsxHumansPCT",
+				        "type":"web_url",
+				        "url": "facebook.com/VoNguyenDinhTri",
+						"webview_height_ratio": "full"
+				    	}
+				    ]
+				}
+	        ]// persistent menu
 		}//json
 	}, function(error, response, body) {})
 	request({

@@ -15,6 +15,7 @@
     "express": "^4.13.4",
     "express-x-hub": "^1.0.4",
     "hashtable": "2.0.2",
+    "heroku": "^7.50.0",
     "heroku-client": "^3.0.2",
     "mongodb": "^3.0.1",
     "mysql": "2.15.0",
